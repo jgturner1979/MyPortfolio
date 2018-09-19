@@ -1,0 +1,291 @@
+/* portfolio style sheet */
+
+* {
+    box-sizing: border-box;
+}
+
+/* This is the header for all 3 webpages */
+
+header {
+    font-family: 'Cabin', sans-serif, bold;
+    width: 100%;
+    height: 100px;
+    padding: 20px 20px;
+    background-color: #DCC7AA;
+}
+
+/* This is the navigation content css styles for all 3 webpages */
+
+.navbar {
+    font-family: 'Rock Salt', cursive;
+    color: #F7882F;
+    float: right;
+    list-style-type: none;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(247,136,47)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+a {
+    /* display: inline; */
+    padding-left: 15px;
+    margin-left: 15px;
+    color: #F7882F;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* This is the heading for all 3 web pages */
+
+h1 {
+    font-size: 40px;
+    float: left;
+    font-family: 'Rock Salt', cursive;
+    margin: 0px 0px 0px 0px;
+    color: #F7882F;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: 'Rock Salt', cursive;
+    color: #F7882F;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Here is the body css style for all 3 webpages */
+
+body {
+    background-color: #F7C331;
+    /* margin: 0 auto; */
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff;
+    z-index: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 0px;
+}
+
+.container {
+    background-color: #6B7A8F;
+    max-width: 100%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+#about {
+    padding: 20px;
+}
+
+.box-home {
+    width: 50%;
+    float: left;
+    text-align: left;
+    /* margin: 0 auto; */
+    /* z-index: 1; */
+}
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+img {
+    float: right;
+    height: 300px;
+}
+
+/* Here is the portfolio page css */
+
+#portfolio {
+    padding: 20px;
+}
+
+.row {
+    padding: 0px 0px 20px 20px;
+}
+
+#portfolio-header {
+    display: inline-flex;
+}
+
+.card {
+    margin: 5px;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+}
+
+.card-body {
+    width: 200px;
+}
+
+.card-title {
+    color: #6B7A8F;
+}
+.card-text {
+    color: #F7C331;
+}
+
+.btn-primary {
+    background-color: #6B7A8F;
+    border-color: #6B7A8F;
+    color: #DCC7AA;
+    margin-left: 0px;
+}
+@media (hover:hover) {
+    .box:hover {
+        filter: opacity(100%);
+    }
+}
+
+/* Here is the contact page css */
+
+.box-contact {
+    background: #ffffff;
+    width: 100%;
+    text-align: left;
+    line-height: 30px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.contact {
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #6B7A8F;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+label,
+input,
+textarea {
+    width: 100%;
+    margin: 0;
+}
+
+input [type=text] {
+    border: .25px solid #DCC7AA;
+    margin: 8px 0;
+    padding: 14px 20px;
+}
+
+textarea {
+    height: 200px;
+}
+
+.button {
+    background-color: #6B7A8F;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/* Here is the footer css for all 3 webpages */
+
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 30px 0;
+    clear: both;
+    font-size: 8px;
+    color: #F7882F;
+    text-align: center;
+    background: #DCC7AA;
+}
+
+i {
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Media hover */
+
+@media (hover:hover) {
+    .fab:hover {
+        color: #6B7A8F;
+    }
+}
+
+@media (hover:hover) {
+    .nav-link:hover {
+        color: #6B7A8F;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 640px) */
+@media (max-width: 640px) {
+    header {
+        position: relative;
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: auto;
+    }
+
+    nav {
+        float: left;
+        margin-right: 0;
+    }
+
+    container {
+        margin-top: 20px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    header {
+        position: relative;
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: auto;
+    }
+
+    nav {
+        float: left;
+        margin-right: 0;
+    }
+}
+
+/* Medium devices (tablets, less than 980px) */
+@media (max-width: 980px) {
+    header {
+        position: relative;
+        width: 100%;
+    }
+
+    h1 {
+        margin-left: auto;
+    }
+}
