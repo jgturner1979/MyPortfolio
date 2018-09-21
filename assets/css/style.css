@@ -62,7 +62,7 @@ body {
     /* margin: 0 auto; */
     font-family: 'Cabin', sans-serif;
     color: #ffffff;
-    z-index: 0;
+    /* z-index: 0; */
 }
 
 p {
@@ -205,15 +205,13 @@ textarea {
 
 /* Here is the footer css for all 3 webpages */
 
-
 footer {
     position: relative;
-    bottom: 0;
+    /* bottom: 0; */
     width: 100%;
     margin-top: 30px;
     margin-bottom: 0px;
     padding: 30px 0;
-    clear: both;
     font-size: 8px;
     color: #F7882F;
     text-align: center;
@@ -239,9 +237,8 @@ i {
     }
 }
 
-
 /* Extra small devices (portrait phones, less than 640px) */
-@media (max-width: 640px) {
+@media (max-width: 575.98px) {
     header {
         position: relative;
         width: 100%;
@@ -256,36 +253,12 @@ i {
         margin-right: 0;
     }
 
-    container {
+    .container {
         margin-top: 20px;
     }
-}
 
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) {
-    header {
-        position: relative;
-        width: 100%;
-    }
-
-    h1 {
-        margin-left: auto;
-    }
-
-    nav {
-        float: left;
-        margin-right: 0;
-    }
-}
-
-/* Medium devices (tablets, less than 980px) */
-@media (max-width: 980px) {
-    header {
-        position: relative;
-        width: 100%;
-    }
-
-    h1 {
-        margin-left: auto;
+    footer {
+        position: fixed;
+        bottom: 0;
     }
 }
