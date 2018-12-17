@@ -219,8 +219,13 @@
   padding: 2rem;
 }
 
-p {
-  margin-top: 1rem;
+/* p {
+  line-height: 1rem;
+  margin-top: .5rem;
+} */
+
+.workExp-date .workExp-job {
+  line-height: 1rem;
 }
 
 @media (min-width: 992px) {
